@@ -1,0 +1,50 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    background-color: transparent !important;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-image {
+    background: url('C:/Users/NIKHIL/OneDrive/Desktop/portfolio-website/public/assets/photo.jpg') no-repeat center center;
+    background-size: cover;  /* Ensures the image covers the entire area */
+    width: 50px;  /* Adjust this value as needed */
+    height: 50px; /* Adjust this value as needed */
+    border-radius: 50%;  
+    margin-right: 5px;
+}
+
+  
+  .navbar-name {
+    color: #000000; /* White */
+    font-size: 1.2rem;
+    
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+ /* Minimalist Design */
+.navbar {
+  background: transparent;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #007BFF;
+  text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3ba0f; /* Light Yellow */
+  color: #6f42c1; /* Purple */
+}
+
+section {
+  text-align: center;
+  padding: 0rem;
+  margin: 0rem ;
+}
+
+
+#home {
+  
+  background: url('../public/assets/background.jpg') no-repeat center center;
+  background-size: cover;
+  color: rgb(0, 0, 0); /* Text color for better visibility */
+  
+  min-height: 100vh; /* Ensures the background covers the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+#about {
+  background-color: #bf6bcd; /* Light Purple */
+}
+
+#projects {
+  background-color: #e8f5e9; /* Light Green */
+}
+
+#contact {
+  background-color: #d1c2aa; /* Light Orange */
+}
+
+h1 {
+  color: #6f42c1; /* Purple */
+}
+
+p {
+  display: flex;
+  color: #000000; /* Purple */
+}
+
+a {
+  color: #6f42c1; /* Purple */
+}
+
+a:hover {
+  color: #28a745; /* Green */
+}
